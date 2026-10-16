@@ -3,7 +3,7 @@
   "name": "io.github.lightnow-ai/claim-mcp-http-public-private-copy",
   "title": "LightNow public http private-copy fixture",
   "description": "Minimal public http MCP server for the private-copy publisher acceptance journey.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "url": "https://github.com/lightnow-ai/claim-mcp-http-public",
     "source": "github"
