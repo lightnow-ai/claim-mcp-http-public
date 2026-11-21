@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.lightnow-ai/claim-mcp-http-public-catalog",
+  "name": "io.github.lightnow-ai/claim-mcp-http-public-9d08a7aa43b3362ef484e097632e3216-catalog",
   "title": "LightNow public http catalog fixture",
   "description": "Minimal public http MCP server for the catalog publisher acceptance journey.",
   "version": "0.1.1",
@@ -11,7 +11,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp-auth.lightnow.local/public/mcp"
+      "url": "https://publisher-repo-9d08a7aa43b3362ef484e097632e3216.lightnow.local/public/mcp"
     }
   ],
   "icons": [
