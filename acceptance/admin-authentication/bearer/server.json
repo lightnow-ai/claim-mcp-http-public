@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.lightnow-ai/claim-mcp-http-admin-auth-bearer",
+  "title": "LightNow Admin HTTP auth acceptance: bearer",
+  "description": "Operator-owned local HTTP authentication fixture exposing discovery_fixture.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/lightnow-ai/claim-mcp-http",
+    "source": "github",
+    "subfolder": "acceptance/admin-authentication/bearer"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-auth.lightnow.local/bearer/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token required by this fixture. Supply the complete Bearer header value.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
